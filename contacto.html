@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIGENCIA MUNICIPAL</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https: //fonts.googleapis.com/css2? family= Shrikhand & display=swap" rel="stylesheet"></link>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1><img class="logo" src="imagenes/logoVMdef.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Vigencia Municipal</h2>
+        </section>
+        <form class="caja-suscriptores">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+            
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades?</label>                
+                
+            <input type="submit" value="Enviar formulario" class="enviar">
+
+        </form>
+    </main>
+
+    <footer>
+        <img class="footer" src="imagenes/logoVMdef.png" alt="Logo Vigencia Municipal">
+        <p class="copyright">Desarrollado por Silvia Elorza - &copy Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
