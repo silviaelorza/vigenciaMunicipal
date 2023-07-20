@@ -120,6 +120,10 @@ nav a:hover{
     padding: 20px;
   }
 
+  .titulos-secundarios{
+    text-decoration: underline;
+  }
+
   .columna{
     flex: 1;
     padding: 10px;
