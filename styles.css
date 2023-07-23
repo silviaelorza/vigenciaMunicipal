@@ -122,6 +122,17 @@ nav a:hover{
     padding: 20px;
   }
 
+  .foto-nota{
+    display: block;
+    width: 400px;
+    height: auto;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
   .titulos-secundarios{
     text-decoration: underline;
   }
