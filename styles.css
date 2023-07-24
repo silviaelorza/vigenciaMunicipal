@@ -44,6 +44,15 @@ nav a{
   text-decoration: none;
 }
 
+.print-button{
+  background-color: #5d5555;
+  border: 2px solid #000000;
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 nav a:hover{
   color: #c78c19;
   text-decoration: underline;
@@ -139,7 +148,7 @@ nav a:hover{
 
   .columna{
     flex: 1;
-    padding: 10px;
+    padding: 20px;
   }
 
   h3{
@@ -158,6 +167,10 @@ nav a:hover{
   p {
     color: #000000;
     margin-bottom: 1em;
+  }
+
+  p strong{
+    font-weight: bold;
   }
 
 form{
@@ -224,6 +237,41 @@ form label, form legend{
     color: #000000;
     font-size: 13px;
     margin: 10px;
+  }
+
+  @media print{
+    .print-button{
+      display:none
+    }
+  }
+
+  @media screen and (max-width:680px) {
+    .logo{
+      width: 150px;
+    }
+    nav{
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 40%;
+    }
+    nav a{
+      flex-direction: column;
+    }
+    .titulo-principal{
+      font-size: 4em;
+    }
+
+    .contenidos{
+      flex-wrap: wrap;
+    }
+
+    .barra-lateral{
+      flex: 1;
+    }
+
+    .columna{
+      flex-direction: column;
+    }
   }
    
   
