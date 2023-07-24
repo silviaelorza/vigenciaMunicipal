@@ -243,6 +243,30 @@ form label, form legend{
     .print-button{
       display:none
     }
+
+    *{
+      margin: 10px 10px 10px 10px;
+    }
+
+    .logo{
+      width: 150px;
+    }
+    .titulo-principal{
+      font-size: 4em;
+    }
+
+    .contenidos{
+      flex-wrap: wrap;
+    }
+
+    .barra-lateral{
+      flex: 1;
+    }
+
+    .columna{
+      flex: 1;
+    }    
+
   }
 
   @media screen and (max-width:680px) {
