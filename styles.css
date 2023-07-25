@@ -40,7 +40,7 @@ nav a{
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -297,6 +297,12 @@ form label, form legend{
       flex-direction: row;
       flex-wrap: wrap;
       width: 40%;
+    }
+
+    nav li{
+      display: block;
+      margin: 0 0 0 0;
+      text-align: center;
     }
     nav a{
       flex-direction: column;
