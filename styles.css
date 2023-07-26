@@ -136,10 +136,7 @@ nav a:hover{
     width: 400px;
     height: auto;
     border-radius: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px auto 40px auto;
   }
 
   .titulos-secundarios{
@@ -165,9 +162,20 @@ nav a:hover{
     text-decoration: underline;
   }
 
+  .agregados{
+    border-radius: 5%;
+    border: 2px solid black;
+    padding: 10px;
+    
+  }
+
   p {
     color: #000000;
     margin-bottom: 1em;
+  }
+
+  .firma{
+    margin-bottom: 0.5em;
   }
 
   p strong{
@@ -285,6 +293,11 @@ form label, form legend{
 
     .barra-lateral{
       flex: 1;
+    }
+
+    .agregados{
+      margin-top: 60px;
+      padding-top: 20px;
     }
 
     .columna-uno, .columna-dos{
