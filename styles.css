@@ -267,11 +267,16 @@ form label, form legend{
       margin: 10px 10px 10px 10px;
     }
 
+    header{
+      padding: 0 0;
+    }
+
     .logo{
       width: 150px;
     }
     .titulo-principal{
       font-size: 4em;
+      padding: 0 0;
     }
 
     .contenidos{
@@ -285,6 +290,7 @@ form label, form legend{
     .columna-uno, .columna-dos{
       display: block;
       width: 100%;
+      padding: 0;
     }
     
     form{
