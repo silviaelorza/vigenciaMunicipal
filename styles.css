@@ -166,7 +166,6 @@ nav a:hover{
     border-radius: 5%;
     border: 2px solid black;
     padding: 10px;
-    
   }
 
   p {
@@ -296,7 +295,7 @@ form label, form legend{
     }
 
     .agregados{
-      margin-top: 60px;
+      margin-top: 20px;
       padding-top: 20px;
     }
 
@@ -313,7 +312,6 @@ form label, form legend{
     footer{
       padding: 10px;
     }
-
   }
 
   @media screen and (max-width:680px) {
