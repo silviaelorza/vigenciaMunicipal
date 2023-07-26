@@ -285,7 +285,15 @@ form label, form legend{
     .columna-uno, .columna-dos{
       display: block;
       width: 100%;
-    }    
+    }
+    
+    form{
+      margin: 20px 0;
+    }
+
+    footer{
+      padding: 10px;
+    }
 
   }
 
