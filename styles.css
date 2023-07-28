@@ -149,7 +149,7 @@ nav a:hover{
     padding: 20px;
   }
 
-  h3{
+  h3, h4{
     text-align: center;
   }
 
@@ -169,6 +169,7 @@ nav a:hover{
   }
 
   p {
+    text-indent: 20px;
     color: #000000;
     margin-bottom: 1em;
   }
@@ -184,11 +185,12 @@ nav a:hover{
   .columna-unica{
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
   }
 
   .cuadro-cop{
     display: block;
-    width: 400px;
+    width: 90%;
     height: auto;
     border-radius: 5%;
     margin-left: auto;
