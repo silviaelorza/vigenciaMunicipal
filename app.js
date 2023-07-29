@@ -2,6 +2,8 @@ const express = require('express');
 const mysql = require('mysql2');
 const app = express();
 const port = 3000;
+const http = require('http');
+const server = http.createServer(app);
 
 // Configuración de la conexión a la base de datos MySQL
 const dbConfig = {
@@ -44,11 +46,3 @@ app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
 
-function enviarFormulario() {
-  document.getElementById("mensaje-exito").style.display = "block";
-  document.getElementById("nombreapellido").value = "";
-  document.getElementById("correoelectronico").value = "";
-  document.getElementById("telefono").value = "";
-  document.getElementById("mensaje").value = "";
-  document.getElementById("checkbox").checked = true;
-}
