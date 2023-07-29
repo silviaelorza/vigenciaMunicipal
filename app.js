@@ -2,8 +2,6 @@ const express = require('express');
 const mysql = require('mysql2');
 const app = express();
 const port = 3000;
-const http = require('http');
-const server = http.createServer(app);
 
 // Configuración de la conexión a la base de datos MySQL
 const dbConfig = {
