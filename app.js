@@ -35,7 +35,6 @@ app.post('/guardar-formulario', (req, res) => {
       console.error('Error inserting data:', err);
       res.status(500).json({ error: 'Error inserting data into database' });
     } else {
-      console.log('Data inserted successfully!');
       res.json({ message: 'Data inserted successfully' });
     }
   });
@@ -44,3 +43,12 @@ app.post('/guardar-formulario', (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
+
+function enviarFormulario() {
+  document.getElementById("mensaje-exito").style.display = "block";
+  document.getElementById("nombreapellido").value = "";
+  document.getElementById("correoelectronico").value = "";
+  document.getElementById("telefono").value = "";
+  document.getElementById("mensaje").value = "";
+  document.getElementById("checkbox").checked = true;
+}

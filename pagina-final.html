@@ -22,29 +22,19 @@
             </nav>
         </div>
     </header>
-    
     <main>
         <section class="principal">
             <h2 class="titulo-principal">Vigencia Municipal</h2>
         </section>
-        <form class="caja-suscriptores" action="http://192.168.0.237:3000/guardar-formulario" method="post">
-            <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido" class="input-padron" required>
-
-            <label for="correoelectronico">Correo Electrónico</label>
-            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
-
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
-
-            <label for="mensaje">Comentario</label>
-            <textarea cols="70" rows="4" id="mensaje" class="input-padron" required placeholder="Escriba aquí su comentario"></textarea>
-            
-            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades?</label>                
-                
-            <input type="submit" value="Enviar formulario" class="enviar" onsubmit="enviarFormulario()">
-            <p id="mensaje-exito" style="display:none; color: blue;">Sus datos han sido guardados correctamente</p>
-        </form>
+        <section class="contenidos">
+            <div class="columna-unica">
+                <h3 class="titulos-secundarios"></h3>
+                <h4>Se han cargado con éxito sus datos</h4>
+                <article class="desarrollo-nota">
+                    <p></p>
+                </article>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -52,6 +42,5 @@
         <p>vigenciamunicipal@gmail.com</p>
         <p class="copyright">Desarrollado por Silvia Elorza - 2023 - &copy Todos los derechos reservados</p>
     </footer>
-    <script src="app.js"></script>
 </body>
 </html>
