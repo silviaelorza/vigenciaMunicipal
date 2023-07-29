@@ -136,7 +136,7 @@ nav a:hover{
     width: 400px;
     height: auto;
     border-radius: 5%;
-    margin: 40px auto 40px auto;
+    margin: 20px auto 20px auto;
   }
 
   .titulos-secundarios{
@@ -160,6 +160,7 @@ nav a:hover{
   .nota-portada{
     font-size: 1.5em;
     text-decoration: underline;
+    margin-top: 18px;
   }
 
   .agregados{
@@ -193,10 +194,7 @@ nav a:hover{
     width: 90%;
     height: auto;
     border-radius: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px auto 40px auto;
     border: 1px solid black;
     padding: 10px;
   }
