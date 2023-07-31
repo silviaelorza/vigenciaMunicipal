@@ -7,7 +7,7 @@ body {
 header {
   display: flex;
   background-color: #5d5555;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .caja{
@@ -104,6 +104,7 @@ nav a:hover{
 
   .contenidos{
     display: flex;
+    padding: 0 10px;
   }
 
   .barra-lateral{
@@ -176,7 +177,8 @@ nav a:hover{
   }
 
   .firma{
-    margin-bottom: 0.5em;
+    text-indent: 0;
+    margin: 0 0;
   }
 
   p strong{
@@ -274,10 +276,6 @@ form label, form legend{
       margin: 10px 10px 10px 10px;
     }
 
-    header{
-      padding: 0 0;
-    }
-
     .logo{
       width: 150px;
     }
@@ -292,17 +290,37 @@ form label, form legend{
 
     .barra-lateral{
       flex: 1;
+      padding: 0 20px;
+    }
+
+    .columna-central{
+      padding: 0 20px;
+    }
+
+    .datos-edicion{
+      margin-top: 0%;
+    }
+
+    .nota-portada{
+      margin-top: 0%;
     }
 
     .agregados{
-      margin-top: 20px;
-      padding-top: 20px;
+      padding: 0 10px;
+    }
+
+    p{
+      margin: 0 0;
     }
 
     .columna-uno, .columna-dos{
       display: block;
       width: 100%;
-      padding: 0;
+      padding: 10px;
+    }
+
+    .columna-dos{
+      margin-top: 100px;
     }
     
     form{
@@ -310,7 +328,11 @@ form label, form legend{
     }
 
     footer{
-      padding: 10px;
+      padding: 0 0;
+    }
+
+    img.footer{
+      display: none;
     }
   }
 
